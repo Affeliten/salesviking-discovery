@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 Discovery Questions That Get Prospects Talking | SalesViking</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Sora', sans-serif;
+            background: linear-gradient(180deg, #1D1937 0%, #161230 100%);
+            color: #f5f5f5;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        
+        /* Logo */
+        .logo {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+        
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+        
+        .badge {
+            display: inline-block;
+            background: rgba(113, 255, 150, 0.15);
+            color: #71ff96;
+            font-size: 12px;
+            font-weight: 600;
+            padding: 6px 14px;
+            border-radius: 20px;
+            margin-bottom: 24px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        
+        .subtitle {
+            font-size: 18px;
+            color: rgba(245, 245, 245, 0.7);
+            margin-bottom: 32px;
+            max-width: 520px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Form Card */
+        .form-card {
+            background: rgba(124, 94, 234, 0.08);
+            border: 1px solid rgba(124, 94, 234, 0.25);
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 48px;
+        }
+        
+        .form-card form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+        
+        .form-card input[type="email"] {
+            width: 100%;
+            padding: 16px 20px;
+            font-size: 16px;
+            font-family: 'Sora', sans-serif;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 10px;
+            color: #ffffff;
+            outline: none;
+            transition: border-color 0.2s ease;
+        }
+        
+        .form-card input[type="email"]::placeholder {
+            color: rgba(255, 255, 255, 0.4);
+        }
+        
+        .form-card input[type="email"]:focus {
+            border-color: #7c5eea;
+        }
+        
+        .form-card button {
+            width: 100%;
+            padding: 16px 24px;
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Sora', sans-serif;
+            background: linear-gradient(135deg, #7c5eea 0%, #7362E9 100%);
+            color: #ffffff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .form-card button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(124, 94, 234, 0.4);
+        }
+        
+        .privacy-note {
+            text-align: center;
+            font-size: 13px;
+            color: rgba(245, 245, 245, 0.5);
+            margin-top: 12px;
+        }
+        
+        /* What You'll Get Section */
+        .benefits {
+            margin-bottom: 48px;
+        }
+        
+        .benefits h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 24px;
+            color: #ffffff;
+        }
+        
+        .benefit-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.06);
+        }
+        
+        .benefit-icon {
+            flex-shrink: 0;
+            width: 40px;
+            height: 40px;
+            background: rgba(113, 255, 150, 0.15);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+        
+        .benefit-content h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 6px;
+            color: #ffffff;
+        }
+        
+        .benefit-content p {
+            font-size: 14px;
+            color: rgba(245, 245, 245, 0.6);
+        }
+        
+        /* Categories Preview */
+        .categories {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 48px;
+        }
+        
+        .category-tag {
+            background: rgba(124, 94, 234, 0.15);
+            border: 1px solid rgba(124, 94, 234, 0.3);
+            border-radius: 8px;
+            padding: 12px 16px;
+            font-size: 14px;
+            font-weight: 500;
+            color: rgba(245, 245, 245, 0.9);
+            text-align: center;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding-top: 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        
+        .footer p {
+            font-size: 14px;
+            color: rgba(245, 245, 245, 0.5);
+        }
+        
+        .footer a {
+            color: #7c5eea;
+            text-decoration: none;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Responsive */
+        @media (max-width: 480px) {
+            .container {
+                padding: 40px 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+            
+            .subtitle {
+                font-size: 16px;
+            }
+            
+            .categories {
+                grid-template-columns: 1fr;
+            }
+            
+            .form-card {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+            <img src="https://salesviking.io/logo.png" alt="SalesViking" onerror="this.style.display='none'">
+        </div>
+        
+        <!-- Hero -->
+        <div class="hero">
+            <span class="badge">Free Cheat Sheet</span>
+            <h1>20 Discovery Questions That Get Prospects Talking</h1>
+            <p class="subtitle">Stop getting ghosted after discovery calls. These questions get prospects talking—and reveal the pain that closes deals.</p>
+        </div>
+        
+        <!-- Form Card -->
+        <div class="form-card">
+            <script async data-uid="9ba67667e8" src="https://salesviking.kit.com/9ba67667e8/index.js"></script>
+            <noscript>
+                <form action="https://app.kit.com/forms/9066024/subscriptions" method="post">
+                    <input type="email" name="email_address" placeholder="Your email address" required>
+                    <button type="submit">Get the Cheat Sheet →</button>
+                </form>
+            </noscript>
+            <p class="privacy-note">No spam. Unsubscribe anytime.</p>
+        </div>
+        
+        <!-- What You'll Get -->
+        <div class="benefits">
+            <h2>What's Inside</h2>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">🎯</div>
+                <div class="benefit-content">
+                    <h3>Opening & Pain Questions</h3>
+                    <p>Get prospects talking about their world—not your product. Reveal trigger events, timelines, and the real cost of inaction.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">💰</div>
+                <div class="benefit-content">
+                    <h3>Impact & Budget Questions</h3>
+                    <p>Quantify the pain. Connect problems to dollars so stakeholders feel the urgency to act now.</p>
+                </div>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="benefit-icon">🏁</div>
+                <div class="benefit-content">
+                    <h3>Decision & Close Questions</h3>
+                    <p>Map the buying process. Identify decision-makers, uncover hidden objections, and set clear next steps.</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Question Categories -->
+        <div class="categories">
+            <div class="category-tag">Pain Discovery</div>
+            <div class="category-tag">Budget Qualification</div>
+            <div class="category-tag">Timeline Urgency</div>
+            <div class="category-tag">Stakeholder Mapping</div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="footer">
+            <p>Made by <a href="https://salesviking.io" target="_blank">SalesViking</a> — AI coaching for sales warriors</p>
+        </div>
+    </div>
+</body>
+</html>
